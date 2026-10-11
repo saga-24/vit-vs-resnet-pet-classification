@@ -1,0 +1,72 @@
+{
+  "model": "vit",
+  "test_accuracy": 0.9373126192423004,
+  "test_macro_f1": 0.9361656309477595,
+  "best_val_accuracy": 0.9755434782608695,
+  "parameters_millions": 85.8,
+  "epochs": 5,
+  "learning_rate": 5e-05,
+  "batch_size": 32,
+  "train_time_seconds": 387.0,
+  "num_classes": 37,
+  "num_train_images": 3312,
+  "num_test_images": 3669,
+  "top_confusions": [
+    {
+      "true": "American Pit Bull Terrier",
+      "predicted": "Staffordshire Bull Terrier",
+      "count": 25
+    },
+    {
+      "true": "Ragdoll",
+      "predicted": "Birman",
+      "count": 13
+    },
+    {
+      "true": "American Pit Bull Terrier",
+      "predicted": "American Bulldog",
+      "count": 12
+    },
+    {
+      "true": "Birman",
+      "predicted": "Ragdoll",
+      "count": 10
+    },
+    {
+      "true": "Egyptian Mau",
+      "predicted": "Bengal",
+      "count": 10
+    }
+  ],
+  "history": {
+    "train_loss": [
+      1.7996395529756224,
+      0.8228717391617633,
+      0.7366638992719604,
+      0.6951813749645067,
+      0.6852839001710864
+    ],
+    "train_acc": [
+      0.6947463768115942,
+      0.9528985507246377,
+      0.9833937198067633,
+      0.9984903381642513,
+      0.9993961352657005
+    ],
+    "val_loss": [
+      0.8961435685987058,
+      0.8475626344266145,
+      0.8137694856394893,
+      0.7741935901019884,
+      0.7750667489093283
+    ],
+    "val_acc": [
+      0.9266304347826086,
+      0.9347826086956522,
+      0.9565217391304348,
+      0.9755434782608695,
+      0.970108695652174
+    ]
+  },
+  "quick_run": false
+}
